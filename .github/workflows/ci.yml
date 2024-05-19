@@ -9,6 +9,6 @@ jobs:
     uses: anand-320/github-reusable-workflows/.github/workflows/ci.yml@main
     with:
       project_name: expense-frontend
-      npm_install: false
+      npm_install: true
     secrets: inherit
 
